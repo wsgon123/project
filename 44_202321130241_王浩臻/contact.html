@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>联系我 - 王浩臻</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="images/b_353af239900a88048eea05eed3a1fb1e.jpg" alt="个人照片" class="profile-img">
+            <div class="header-text">
+                <h1>王浩臻的个人网站</h1>
+                <p>中南财经政法大学 | 信息管理与信息系统专业</p>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">主页</a></li>
+                <li><a href="hobbies.html">我的爱好</a></li>
+                <li><a href="hometown.html">我的家乡</a></li>
+                <li><a href="travel.html">旅游经历</a></li>
+                <li><a href="contact.html" class="active">联系我</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-section">
+            <h2>联系我</h2>
+            
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>我的联系方式</h3>
+                    <table>
+                        <tr>
+                            <th>方式</th>
+                            <th>信息</th>
+                        </tr>
+                        <tr>
+                            <td>个人邮箱</td>
+                            <td>1628479411@qq.com</td>
+                        </tr>
+                        <tr>
+                            <td>电话</td>
+                            <td>19871649315</td>
+                        </tr>
+                        <tr>
+                            <td>微信</td>
+                            <td>wghozn123</td>
+                        </tr>
+                        <tr>
+                            <td>QQ</td>
+                            <td>1628479411</td>
+                        </tr>
+                        <tr>
+                            <td>家乡地址</td>
+                            <td>湖北省襄阳市宜城市</td>
+                        </tr>
+                    </table>
+                    
+                    <div class="availability">
+                        <h4>最佳联系时间</h4>
+                        <table>
+                            <tr>
+                                <th>时间段</th>
+                                <th>工作日</th>
+                                <th>周末</th>
+                            </tr>
+                            <tr>
+                                <td>上午(12:00-12:30)</td>
+                                <td>✓ (课后)</td>
+                                <td>✓</td>
+                            </tr>
+                            <tr>
+                                <td>下午(17:30-18:00)</td>
+                                <td>✓ (课后)</td>
+                                <td>✓</td>
+                            </tr>
+                            <tr>
+                                <td>晚上(20:00-21:00)</td>
+                                <td>✓</td>
+                                <td>✓</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h3>发送消息</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">姓名:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">电子邮箱:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">主题:</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">消息内容:</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="contact-method">首选联系方式:</label>
+                            <select id="contact-method" name="contact-method">
+                                <option value="email">电子邮件</option>
+                                <option value="phone">电话</option>
+                                <option value="wechat">微信</option>
+                                <option value="qq">QQ</option>
+                            </select>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">发送消息</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 王浩臻的个人网站. 保留所有权利.</p>
+    </footer>
+</body>
+</html>
